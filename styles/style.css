@@ -81,6 +81,9 @@
 /*cover start*/
 .cover {
   min-height: 757px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: url(../images/cover.jpg);
   position: relative;
 }
@@ -203,6 +206,9 @@
 
 .card {
   display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   flex-direction: column;
   position: relative;
   padding: 48px 40px 48px 40px;
