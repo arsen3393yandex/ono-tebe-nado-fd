@@ -1,1 +1,133 @@
 /* место для вашего кода */
+.body{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24.3px;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 240px;
+}
+
+/*header start*/
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding-top: 92px; 
+    padding-inline: 50px;
+    padding-bottom: 96px;
+    height: 293px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__links-list {
+    display: flex;
+    list-style: circle;
+    font-size: 18px;
+    text-underline-offset: 4px;
+    list-style-position: inside;
+}
+
+.header__links_list-item_about {
+    margin-left: 12.56px;
+}
+
+.header__links_list-item_about::marker{
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.header__links-list-item-link__no-decoration {
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 114px;
+    /* margin: 1.16px 9.86px 0.81px 9.03px; */
+}
+
+
+/*header end*/
+
+/*cover start*/
+.cover {
+    min-height: 757px;
+    background-image: url(../images/cover.jpg);
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    margin-top: 165px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 385px;
+}
+
+.aligned-text_left,
+.aligned-text_center,
+.aligned-text_right {
+    display: block;
+    color: #FFFFFF;
+}
+
+.aligned-text_left {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+
+/*cover end*/
+
+/*lots start*/
+.lots {
+    width: 1052px;
+    height: 723px;
+    top: 1230px;
+    left: 24px;
+}
+/*lots end*/
+
+/*about start*/
+.about {
+    width: 1052px;
+    top: 2073px;
+    height: 595px;
+    left: 24px;
+}
+/*about end*/
