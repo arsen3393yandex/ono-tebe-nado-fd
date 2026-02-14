@@ -9,7 +9,6 @@
   align-items: flex-start;
   font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 24.3px;
 }
 
@@ -37,7 +36,6 @@
 .header__menu {
   display: flex;
   align-items: center;
-  min-width: 391.48px;
 }
 
 .header__links-list {
@@ -89,7 +87,6 @@
 }
 
 .cover__title {
-  height: 385px;
   margin-top: 165px;
   margin-right: 50px;
   margin-left: 50px;
@@ -154,7 +151,6 @@
   color: #ffffff;
   font-weight: 500;
   font-size: 22px;
-  font-style: medium;
   text-transform: uppercase;
   background-color: transparent;
 }
@@ -163,23 +159,19 @@
 
 /*lots start*/
 .lots {
-  /* top: 1230px; */
   left: 24px;
-  height: 723px;
+  min-height: 723px;
   margin-top: 180px;
   padding-right: 23px;
   padding-left: 23px;
 }
 
-.lots__heading {
-  height: 74px;
-}
-
 .lots__heading-title {
+  margin-bottom: 26px;
   padding-left: 40px;
   font-weight: 700;
+  font-weight: 700;
   font-size: 40px;
-  font-style: Bold;
   text-transform: uppercase;
 }
 
@@ -216,17 +208,19 @@
 }
 
 .card__title {
+  z-index: 1;
   color: #ffffff;
+  font-weight: 700;
   font-size: 22px;
-  font-style: Bold;
   text-decoration: underline;
   text-transform: uppercase;
 }
 
 .card__text {
+  z-index: 1;
   color: #ffffff;
+  font-weight: 400;
   font-size: 20px;
-  font-style: normal;
 }
 
 .card_type_film {
@@ -283,7 +277,6 @@
 
 .about__logo-image {
   width: 141.54px;
-  /* height: 112.55px; */
 }
 
 .about__title {
@@ -292,8 +285,8 @@
   grid-row: 1/2;
   align-items: center;
   padding-left: 25px;
+  font-weight: 700;
   font-size: 40px;
-  font-style: Bold;
   text-transform: uppercase;
 }
 
@@ -311,7 +304,6 @@
   padding-left: 25px;
   font-weight: 400;
   font-size: 20px;
-  font-style: normal;
   line-height: 24px;
 }
 
