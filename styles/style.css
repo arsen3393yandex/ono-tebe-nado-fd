@@ -9,6 +9,7 @@
   align-items: flex-start;
   font-weight: 400;
   font-size: 18px;
+  font-style: normal; /*у меня почему-то не normal по умолчанию стоит*/
   line-height: 24.3px;
 }
 
@@ -29,8 +30,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
-  padding: 92px 50px 96px;
+  padding: 92px 50px 92px;
 }
 
 .header__menu {
@@ -40,16 +40,12 @@
 
 .header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
   padding-bottom: 7px;
   font-size: 18px;
   text-underline-offset: 4px;
   list-style: circle;
   list-style-position: outside;
-}
-
-.header__links-list-item_about {
-  margin-left: 2.5px;
 }
 
 .header__links-list-item_no-bullit {
@@ -133,7 +129,6 @@
   color: #ffffff;
   font-weight: 400;
   font-size: 22px;
-  font-style: normal;
   text-transform: uppercase;
   word-spacing: 20px;
   white-space: nowrap;
@@ -159,7 +154,6 @@
 
 /*lots start*/
 .lots {
-  left: 24px;
   min-height: 723px;
   margin-top: 180px;
   padding-right: 23px;
@@ -312,9 +306,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 180px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 180px 50px 90px;
 }
 
 .footer__address {
